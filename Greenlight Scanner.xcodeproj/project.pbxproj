@@ -8,20 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		16F2ED0C22B3DF2800189674 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED0B22B3DF2800189674 /* AppDelegate.swift */; };
-		16F2ED0E22B3DF2800189674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED0D22B3DF2800189674 /* ViewController.swift */; };
 		16F2ED1122B3DF2800189674 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F2ED0F22B3DF2800189674 /* Main.storyboard */; };
 		16F2ED1322B3DF2900189674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16F2ED1222B3DF2900189674 /* Assets.xcassets */; };
 		16F2ED1622B3DF2900189674 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16F2ED1422B3DF2900189674 /* LaunchScreen.storyboard */; };
+		16F2ED4122B41CAC00189674 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED3C22B41CAC00189674 /* ViewController.swift */; };
+		16F2ED4222B41CAC00189674 /* HeaderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED3D22B41CAC00189674 /* HeaderViewController.swift */; };
+		16F2ED4322B41CAC00189674 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED3E22B41CAC00189674 /* CameraViewController.swift */; };
+		16F2ED4422B41CAC00189674 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED3F22B41CAC00189674 /* MessageViewController.swift */; };
+		16F2ED4522B41CAC00189674 /* BarcodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED4022B41CAC00189674 /* BarcodeScannerViewController.swift */; };
+		16F2ED4A22B41CC700189674 /* FocusViewType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED4722B41CC700189674 /* FocusViewType.swift */; };
+		16F2ED4B22B41CC700189674 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED4822B41CC700189674 /* State.swift */; };
+		16F2ED4C22B41CC700189674 /* TorchMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED4922B41CC700189674 /* TorchMode.swift */; };
+		16F2ED5222B41CDF00189674 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED4E22B41CDF00189674 /* UIView+Extensions.swift */; };
+		16F2ED5322B41CDF00189674 /* AVMetadataObject+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED4F22B41CDF00189674 /* AVMetadataObject+Extensions.swift */; };
+		16F2ED5422B41CDF00189674 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED5022B41CDF00189674 /* UIViewController+Extensions.swift */; };
+		16F2ED5522B41CDF00189674 /* NSLayoutConstraint+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED5122B41CDF00189674 /* NSLayoutConstraint+Extensions.swift */; };
+		16F2ED5922B41CF100189674 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED5722B41CF100189674 /* Functions.swift */; };
+		16F2ED5A22B41CF100189674 /* VideoPermissionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F2ED5822B41CF100189674 /* VideoPermissionService.swift */; };
+		E4F529EBAD7E4DC007E64021 /* Pods_Greenlight_Scanner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDC8E28A8F6CC481EDE20633 /* Pods_Greenlight_Scanner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A8D5837CDE809E1C9E64A3D /* Pods-Greenlight Scanner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greenlight Scanner.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Greenlight Scanner/Pods-Greenlight Scanner.debug.xcconfig"; sourceTree = "<group>"; };
+		15D472A3AADCE4D716FBDAC6 /* Pods-Greenlight Scanner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Greenlight Scanner.release.xcconfig"; path = "Pods/Target Support Files/Pods-Greenlight Scanner/Pods-Greenlight Scanner.release.xcconfig"; sourceTree = "<group>"; };
 		16F2ED0822B3DF2800189674 /* Greenlight Scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greenlight Scanner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16F2ED0B22B3DF2800189674 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		16F2ED0D22B3DF2800189674 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		16F2ED1022B3DF2800189674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		16F2ED1222B3DF2900189674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16F2ED1522B3DF2900189674 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16F2ED1722B3DF2900189674 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16F2ED3C22B41CAC00189674 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16F2ED3D22B41CAC00189674 /* HeaderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeaderViewController.swift; sourceTree = "<group>"; };
+		16F2ED3E22B41CAC00189674 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		16F2ED3F22B41CAC00189674 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		16F2ED4022B41CAC00189674 /* BarcodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarcodeScannerViewController.swift; sourceTree = "<group>"; };
+		16F2ED4722B41CC700189674 /* FocusViewType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FocusViewType.swift; sourceTree = "<group>"; };
+		16F2ED4822B41CC700189674 /* State.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		16F2ED4922B41CC700189674 /* TorchMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TorchMode.swift; sourceTree = "<group>"; };
+		16F2ED4E22B41CDF00189674 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		16F2ED4F22B41CDF00189674 /* AVMetadataObject+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AVMetadataObject+Extensions.swift"; sourceTree = "<group>"; };
+		16F2ED5022B41CDF00189674 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		16F2ED5122B41CDF00189674 /* NSLayoutConstraint+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSLayoutConstraint+Extensions.swift"; sourceTree = "<group>"; };
+		16F2ED5722B41CF100189674 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		16F2ED5822B41CF100189674 /* VideoPermissionService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPermissionService.swift; sourceTree = "<group>"; };
+		CDC8E28A8F6CC481EDE20633 /* Pods_Greenlight_Scanner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Greenlight_Scanner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4F529EBAD7E4DC007E64021 /* Pods_Greenlight_Scanner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +71,8 @@
 			children = (
 				16F2ED0A22B3DF2800189674 /* Greenlight Scanner */,
 				16F2ED0922B3DF2800189674 /* Products */,
+				946C00524EB6497CEB0E29D1 /* Pods */,
+				8222DBB324383F1F55D3A297 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +87,76 @@
 		16F2ED0A22B3DF2800189674 /* Greenlight Scanner */ = {
 			isa = PBXGroup;
 			children = (
+				16F2ED5622B41CE500189674 /* Helpers */,
+				16F2ED4D22B41CD100189674 /* Extensions */,
+				16F2ED4622B41CB500189674 /* DataStrucutures */,
+				16F2ED3B22B41C8F00189674 /* Controllers */,
 				16F2ED0B22B3DF2800189674 /* AppDelegate.swift */,
-				16F2ED0D22B3DF2800189674 /* ViewController.swift */,
 				16F2ED0F22B3DF2800189674 /* Main.storyboard */,
 				16F2ED1222B3DF2900189674 /* Assets.xcassets */,
 				16F2ED1422B3DF2900189674 /* LaunchScreen.storyboard */,
 				16F2ED1722B3DF2900189674 /* Info.plist */,
 			);
 			path = "Greenlight Scanner";
+			sourceTree = "<group>";
+		};
+		16F2ED3B22B41C8F00189674 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				16F2ED4022B41CAC00189674 /* BarcodeScannerViewController.swift */,
+				16F2ED3E22B41CAC00189674 /* CameraViewController.swift */,
+				16F2ED3D22B41CAC00189674 /* HeaderViewController.swift */,
+				16F2ED3F22B41CAC00189674 /* MessageViewController.swift */,
+				16F2ED3C22B41CAC00189674 /* ViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		16F2ED4622B41CB500189674 /* DataStrucutures */ = {
+			isa = PBXGroup;
+			children = (
+				16F2ED4722B41CC700189674 /* FocusViewType.swift */,
+				16F2ED4822B41CC700189674 /* State.swift */,
+				16F2ED4922B41CC700189674 /* TorchMode.swift */,
+			);
+			path = DataStrucutures;
+			sourceTree = "<group>";
+		};
+		16F2ED4D22B41CD100189674 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				16F2ED4F22B41CDF00189674 /* AVMetadataObject+Extensions.swift */,
+				16F2ED5122B41CDF00189674 /* NSLayoutConstraint+Extensions.swift */,
+				16F2ED4E22B41CDF00189674 /* UIView+Extensions.swift */,
+				16F2ED5022B41CDF00189674 /* UIViewController+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		16F2ED5622B41CE500189674 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				16F2ED5722B41CF100189674 /* Functions.swift */,
+				16F2ED5822B41CF100189674 /* VideoPermissionService.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8222DBB324383F1F55D3A297 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDC8E28A8F6CC481EDE20633 /* Pods_Greenlight_Scanner.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		946C00524EB6497CEB0E29D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A8D5837CDE809E1C9E64A3D /* Pods-Greenlight Scanner.debug.xcconfig */,
+				15D472A3AADCE4D716FBDAC6 /* Pods-Greenlight Scanner.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +166,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 16F2ED1A22B3DF2900189674 /* Build configuration list for PBXNativeTarget "Greenlight Scanner" */;
 			buildPhases = (
+				A075EDBE309CED281C63A2B9 /* [CP] Check Pods Manifest.lock */,
 				16F2ED0422B3DF2800189674 /* Sources */,
 				16F2ED0522B3DF2800189674 /* Frameworks */,
 				16F2ED0622B3DF2800189674 /* Resources */,
+				F371B7B86D773D82F6F6FA12 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +227,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A075EDBE309CED281C63A2B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Greenlight Scanner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F371B7B86D773D82F6F6FA12 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Greenlight Scanner/Pods-Greenlight Scanner-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftPhoenixClient/SwiftPhoenixClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPhoenixClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Greenlight Scanner/Pods-Greenlight Scanner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		16F2ED0422B3DF2800189674 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16F2ED0E22B3DF2800189674 /* ViewController.swift in Sources */,
+				16F2ED4122B41CAC00189674 /* ViewController.swift in Sources */,
+				16F2ED4322B41CAC00189674 /* CameraViewController.swift in Sources */,
+				16F2ED5222B41CDF00189674 /* UIView+Extensions.swift in Sources */,
+				16F2ED5922B41CF100189674 /* Functions.swift in Sources */,
+				16F2ED4522B41CAC00189674 /* BarcodeScannerViewController.swift in Sources */,
+				16F2ED5422B41CDF00189674 /* UIViewController+Extensions.swift in Sources */,
+				16F2ED4C22B41CC700189674 /* TorchMode.swift in Sources */,
+				16F2ED5322B41CDF00189674 /* AVMetadataObject+Extensions.swift in Sources */,
 				16F2ED0C22B3DF2800189674 /* AppDelegate.swift in Sources */,
+				16F2ED4222B41CAC00189674 /* HeaderViewController.swift in Sources */,
+				16F2ED5A22B41CF100189674 /* VideoPermissionService.swift in Sources */,
+				16F2ED4A22B41CC700189674 /* FocusViewType.swift in Sources */,
+				16F2ED5522B41CDF00189674 /* NSLayoutConstraint+Extensions.swift in Sources */,
+				16F2ED4422B41CAC00189674 /* MessageViewController.swift in Sources */,
+				16F2ED4B22B41CC700189674 /* State.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +439,7 @@
 		};
 		16F2ED1B22B3DF2900189674 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A8D5837CDE809E1C9E64A3D /* Pods-Greenlight Scanner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +458,7 @@
 		};
 		16F2ED1C22B3DF2900189674 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D472A3AADCE4D716FBDAC6 /* Pods-Greenlight Scanner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
