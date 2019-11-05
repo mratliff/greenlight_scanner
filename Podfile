@@ -6,6 +6,6 @@ target 'Greenlight Scanner' do
   use_frameworks!
 
   # Pods for Greenlight Scanner
-  pod "SwiftPhoenixClient", '~> 1.0'
+  pod "SwiftPhoenixClient", '~> 1.1.0'
 
 end

@@ -19,7 +19,8 @@ import UIKit
 import SwiftPhoenixClient
 
 class ViewController: UIViewController {
-    static let url = "ws://192.168.7.66:4000/socket/websocket"
+    static let url = "ws://172.16.3.177:4000/socket/websocket"
+//  static let url = "ws://192.168.7.255:4000/socket/websocket"
     var socket = Socket(url)
     var topic: String = "inventory_verification:1"
     var scanChannel: Channel!
@@ -36,17 +37,21 @@ class ViewController: UIViewController {
     private func connectAndJoin() {
         let email = emailField.text ?? ""
         let password = passwordField.text ?? ""
+      print("In")
         socket = Socket(ViewController.url, params: ["email": email, "password": password])
-        
+        print("Out")
         self.scanChannel = socket.channel(topic, params: ["status":"joining"])
+      print("In and out")
         self.scanChannel
             .join()
             .delegateReceive("ok", to: self) { (self, _) in
+              print("got it")
                 self.addText("Joined Channel")
                 let viewController = self.makeBarcodeScannerViewController()
                 viewController.title = "Inventory Scanning"
                 self.navigationController?.pushViewController(viewController, animated: true)
             }.delegateReceive("error", to: self) { (self, message) in
+              print("error")
                 self.addText("Failed to join channel: \(message.payload)")
         }
         self.socket.connect()

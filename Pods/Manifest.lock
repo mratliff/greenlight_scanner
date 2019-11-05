@@ -4,7 +4,7 @@ PODS:
     - Starscream (~> 3.1.0)
 
 DEPENDENCIES:
-  - SwiftPhoenixClient (~> 1.0)
+  - SwiftPhoenixClient (~> 1.1.0)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -15,6 +15,6 @@ SPEC CHECKSUMS:
   Starscream: 08172b481e145289c4930cb567230fb55897cfa4
   SwiftPhoenixClient: c04f78fb741dd5d5c43ac6653d8bd2ce184528dd
 
-PODFILE CHECKSUM: 6099e5e2a5aa49b5bea6b19a5b90c5274a32200f
+PODFILE CHECKSUM: 1986ea5ebd1b58e7b33a3ee818210a5c0133ac8f
 
 COCOAPODS: 1.5.3
